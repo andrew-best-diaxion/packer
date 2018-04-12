@@ -12,6 +12,7 @@ import (
 TODO:
 	* tests
 	* comments
+	* lower-case specials
 */
 
 // KeysAction represents what we want to do with a key press.
@@ -22,7 +23,7 @@ TODO:
 type KeyAction int
 
 const (
-	KeyOn KeyAction = iota
+	KeyOn KeyAction = 1 << iota
 	KeyOff
 	KeyPress
 )
