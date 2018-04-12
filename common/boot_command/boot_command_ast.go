@@ -14,6 +14,7 @@ TODO:
 	  * fix vbox tests
 	* comments
 	* lower-case specials
+	* check that `<del>` works on parallels. It's different now.
 */
 
 // KeysAction represents what we want to do with a key press.
